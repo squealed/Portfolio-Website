@@ -64,7 +64,7 @@ export default function Home() {
             Interested in collaborating? Let's build something amazing together.
           </p>
           <Button variant="secondary" asChild>
-            <Link href="mailto:your.email@example.com">
+            <Link href="mailto:neilwalter7@gmail.com">
               Contact Me
             </Link>
           </Button>
