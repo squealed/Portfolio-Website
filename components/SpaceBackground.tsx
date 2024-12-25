@@ -38,6 +38,7 @@ export default function SpaceBackground() {
 
     // Animation loop
     function animate() {
+      if (!ctx || !canvas) return;
       ctx.fillStyle = 'black';
       ctx.fillRect(0, 0, canvas.width, canvas.height);
 
